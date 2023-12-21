@@ -1,5 +1,13 @@
+<header>
+	<nav>
+		<h3>CodeShare</h3>
+	</nav>
+</header>
 
-		<nav>
-			<h3>CodeShare</h3>
-			<slot />
-		</nav>
+<slot />
+
+<style>
+	nav {
+		padding: 1rem;
+	}
+</style>
